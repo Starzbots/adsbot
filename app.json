@@ -1,0 +1,41 @@
+{
+    "name": "adsBot",
+    "description": "ads.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "botzhub"
+    ],
+    "repository": "https://github.com/Smitmore2003/AdsBot.",
+    "website": "xditya.me",
+    "success_url": "https://t.me/smitmorexd",
+    "env": {
+        "SESSION": {
+            "description": "A telethon session string.",
+            "value": ""
+        },
+        "OWNERS": {
+            "description": "User IDs of users to be able to use the bot, split by a space.",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Api iD from my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Api hash from my.telegram.org",
+            "value": ""
+        },
+        "INTERVAL": {
+            "description": "Time delay between ads, in seconds.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
