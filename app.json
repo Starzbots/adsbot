@@ -8,7 +8,7 @@
         "telegram-bot",
         "botzhub"
     ],
-    "repository": "https://github.com/Smitmore2003/AdsBot.",
+    "repository": "https://github.com/Starzbots/adsbot.",
     "website": "xditya.me",
     "success_url": "https://t.me/smitmorexd",
     "env": {
