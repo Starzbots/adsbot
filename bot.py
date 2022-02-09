@@ -58,7 +58,7 @@ commands = """
 
 @client.on(events.NewMessage(incoming=True, from_users=OWNERS, pattern="^.alive$"))
 async def alive(e):
-    await e.reply("I'm alive!\nbot by @smitmorexd.")
+    await e.reply("𝗭𝗶𝗻𝗱𝗮 𝗵𝘂 𝗯𝘀𝗱𝗸 !\nbot by @Rockstar_xdd.")
 
 
 @client.on(events.NewMessage(incoming=True, from_users=OWNERS, pattern="^.help$"))
@@ -133,7 +133,7 @@ async def send_the_ads():
     try:
         loaded_ads = json.loads(open("data.json").read())
     except json.decoder.JSONDecodeError:
-        log.error("Error in the data.json file. Contact @smitmorexd.")
+        log.error("Error in the data.json file. Contact @Rockstar_xdd.")
         log.warning("Stopped the bot.")
         sys.exit(1)
     chats = await load_chats()
@@ -156,5 +156,5 @@ scheduler.add_job(send_the_ads, "interval", seconds=INTERVAL)
 scheduler.start()
 
 client.loop.run_until_complete(me())
-print("Bot has started!\n(c) @smitmorexd\n")
+print("Bot has started!\n(c) @Rockstar_xdd\n")
 client.run_until_disconnected()
