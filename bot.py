@@ -58,7 +58,7 @@ commands = """
 
 @client.on(events.NewMessage(incoming=True, from_users=OWNERS, pattern="^.alive$"))
 async def alive(e):
-    await e.reply("𝗭𝗶𝗻𝗱𝗮 𝗵𝘂 𝗯𝘀𝗱𝗸 !\nbot by @Rockstar_xdd.")
+    await e.reply("𝗭𝗶𝗻𝗱𝗮 𝗵𝘂 𝗯𝘀𝗱𝗸 !\nbot by @@eviladitya00)
 
 
 @client.on(events.NewMessage(incoming=True, from_users=OWNERS, pattern="^.help$"))
